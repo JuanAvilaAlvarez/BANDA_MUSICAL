@@ -6,8 +6,8 @@
 
 ## Descripción:
 
-
+Programa que
 
 ## Diagramas:
 __Clases__
-![Diagrama de clases](out/clases/clases.png)
+![Diagrama de clases](out/clases.png)
