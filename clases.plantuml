@@ -4,19 +4,19 @@ Instrumento <|-- Guitarra
 Instrumento <|-- Saxo
 Instrumento <|-- Tiple
 
-Musico *-- Intrumento
+Musico *-- Instrumento
 Banda *-- Musico
 
-Intrumento: afinar()
-Intrumento: tocar()
+Instrumento : afinar()
+Instrumento : tocar()
 
-Musico: Intrumento
-Musico: adinar_intrumento()
-Musico: tocar_instrumento()
+Musico : Instrumento
+Musico : adinar_instrumento()
+Musico : tocar_instrumento()
 
-Banda: intrumento()
-Banda: afinar()
-Banda: tocar()
-Banda: armar_banda()
+Banda : instrumento()
+Banda : afinar()
+Banda : tocar()
+Banda : armar_banda()
 
 @enduml
