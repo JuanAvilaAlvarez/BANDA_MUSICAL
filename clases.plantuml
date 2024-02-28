@@ -11,7 +11,7 @@ Instrumento : afinar()
 Instrumento : tocar()
 
 Musico : Instrumento
-Musico : adinar_instrumento()
+Musico : afinar_instrumento()
 Musico : tocar_instrumento()
 
 Banda : instrumento()
